@@ -1,0 +1,67 @@
+body{background: #f6f6f6;}
+/*header部分*/
+.header{width:1263px;margin:0 auto;}
+.header{height:80px;overflow: hidden;text-align: center;}
+	.header img{border: none;margin-top:21.5px;}
+.banner,.main,.footer{width: 965px;margin:0 auto;overflow: hidden;}
+/*banner部分*/
+.banner{height: 575px;background: #fff;}
+	/*top*/
+	.banner .top{height:66px;width:528px;overflow: hidden;}
+		.banner .top span{display:block;height:60px;width:528px;border-bottom:1px solid #E5E5E5;position: relative;}
+		.banner .top a{height:36px;width:115px;display: block;margin-left:100px;border: 1px solid 				#e5e5e5;border-bottom:none;background:#fff;position:absolute;top:24px;position: 				relative;overflow:hidden;text-align: center;line-height: 37px;}
+		.banner .top img{position: absolute;left:17px;top:-170px;}
+		.banner .top p{position: absolute;left:50px;top:0;}
+	/*bottom*/
+	.banner .bottom{height:480px;}
+	/*bottom left*/
+		.banner .bottom .left{width:505px;float: left;padding-left:100px;padding-top:10px;overflow: hidden;}
+		.banner .left .one,.banner .left .two,.banner .left .three,.banner .left .four{width:412px;height:90px;display:block;overflow: hidden;}
+		.banner .left .one{margin-top:35px;}
+		.banner .left .on,.banner .left .in{width:398px;height: 45px; padding:0px 5px 0px 5px; outline:none;}
+		.banner .left .put,.banner .left .down{width:260px;height: 45px; padding:0px 5px 0px 5px; outline:none;}
+		.banner .left .one .p,.banner .left .two .p,.banner .left .three .p,.banner .left .four .p{
+			background-image:url(../img/pic14.gif);background-position:0px -1292px;
+			background-size:15%;height:30px;background-repeat:no-repeat;display: block;/*display: none;*/
+		}
+		/*注意：！鼠标事件*/
+		.banner .left .one .p  span,.banner .left .two .p span,.banner .left .three .p span,.banner .left .four .p span{margin-left:30px;color:#0c05c6;line-height:28px;}		
+				
+				
+				
+				
+				
+				
+		.banner .bottom .left .span{display: block;height:50px;}
+		.banner .bottom .left .two .down{float:left;}
+		.banner .bottom .left .two span{display: block;float: left;height:30px;width: 60px;border: 1px dashed #CCD5CC;text-align: center;line-height:30px;margin:10px 5px 0 15px;}
+		.banner .bottom .left .two a{float:left;height:30px;width:50px;display:block;text-align: center;line-height: 50px;}										
+		.banner .bottom .left .a{color:#0700c5;text-decoration: 								underline;display:block;height:24px;width:77px;margin-left:340px;line-height24px;font-size:14px;}
+		.banner .bottom .left .three a{display:block;width:110px;height:30px;border:1px solid #0C05C6;color:#0700C5;text-align: center;line-height:30px;float: left;font-size:15px;margin:10px 0 0 20px;}
+		.banner .bottom .left .three .put{float: left;}
+		.banner .bottom .left .sub{display:block;width:404px;height:37px;background: #e5e5e5;border: 								none;font-size:17px;color:#fff;font-family: "微软雅黑";text-align: center;line-height:37px;}
+		.banner .bottom .left .span1 p{font-size: 17px;float: left;margin:15px 0 0 75px;}
+		.banner .bottom .left .b{display: block;float: left;font-size: 								18px;color:#0c05c6;margin-top:15px;}
+	.banner .bottom .left .b img{vertical-align: middle;border: none;margin-left:5px;}	
+	/*bottom right*/												
+		.banner .bottom .right{width:359px;height:507px;float:left;border-left: 1px solid #e7e7e7;}
+		.banner .bottom .right p{margin-left:60px;font-size:18px;}
+		.banner .bottom .right .two{height:130px;width:220px;margin-left:40px;}
+		.banner .bottom .right .two a{float: left;;margin-top:30px;padding-left:20px;}
+		.banner .bottom .right .three{width:345px;height:158px;text-align: center;}
+		.banner .bottom .right .three p{margin-left:-2px;font-size:14px;line-height: 18px;}
+/*main部分*/
+.main{height:45px;background: #333;margin-top:10px;}
+	.main ul li{float: left;}
+	.main ul a{display: block;border-right:1px solid #474747;width:106px;height:45px;line-height: 					45px;text-align: center;color:#fff;font-size:14px;}
+	.main ul li:last-child a{border:none;}
+	.main a:hover{background: #474747;}
+/*footer部分*/
+.footer{height:114px;background: #fff;overflow: hidden;}
+	.footer .top{height:68px;}
+		.footer .top ul{padding:28px 0 0 120px;}
+		.footer .top ul li{float: left;padding-right:13px;}
+		.footer .top ul a{font-size:12px;color:#333333;}
+		.footer .top ul a:hover{text-decoration: underline;}
+	.footer .bottom{height:46px;text-align: center;}
+		.footer .bottom a{padding-right:5px;margin-left:10px;}

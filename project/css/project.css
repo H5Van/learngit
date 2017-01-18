@@ -1,0 +1,156 @@
+.header,.nav,.block,.banner{width:960px;margin:0 auto;overflow: hidden;}
+/*header部分*/
+.header{height:37px;font-size: 14px;color:#686868;}
+	.header ul{float: left;margin-left: 645px;}
+	.header ul li{float: left;margin-left:10px;text-align: center;height:37px;line-height:37px;font-size: 12px;}
+	.header ul a{font-size:12px;color:#686868;}
+	.header ul a:hover{text-decoration: underline;}
+	.header dl{float: right;cursor: pointer;display: 				block;width:122px;height:36px;line-height:37px;border:1px solid #fff;z-index: 2;position: relative;}
+	.header dl dd,.header dl dt{float: left;margin-left:5px;font-size:12px;}
+	.header dd img{vertical-align: middle;}
+	.header span{display: block;width:300px;height:90px;border:1px solid #000;position: 				absolute;left:810px;top:36px;display: none;z-index: 1;background: #fff;}
+	.header span p{color:#000;margin-left:39px;margin-top:25px;font-size:12px;}
+/*nav部分*/
+.nav{height:55px;cursor: pointer;line-height:55px;overflow: hidden;position: relative;}
+	.nav .one{width:198px;height:43px;float:left;}
+	.nav .one a{display: block;float: left;width:66px;height:30px;line-height: 66px;text-align: center;color:#aaaaaa;font-size: 18px;}
+	.nav .one span{display: block;position: 					absolute;top:51px;left:30px;width:5px;height:5px;border-radius: 2.5px;background: #000;}
+	.nav .two a{width:262px;height: 55px;background:url(../img/pic24.png) no-repeat center;float: left;margin:5px 0 0 150px;}
+	.nav .three{float: left;width:285px;height:55px;position: relative;}
+	.nav .three #png{width: 30px;height: 30px;float: right;margin:12px 5px 0 0;}
+	.nav .three input{width:190px;height: 20px;border-radius: 30px;float: left;position:absolute;top:17px;right:45px;border:2px solid #000;padding:0 8px 0 8px;outline: none;display: block;display:none;}
+	.nav .three #p3{width:23px;height:23px;display: block;position: absolute;top:17px;left:203px;cursor: pointer;display: none;}
+	.nav .three #p1{font-size:16px;font-weight: bold;color:#000;position: absolute;left:20px;top:20px;}
+	.nav .three #p2{font-size:16px;font-weight: bold;color:#000;position: absolute;left:20px;top:-60px;}
+	.nav .four{float: left;width:50px;height: 55px;}
+	.nav .four img{width:30px;height:30px;margin:10px 0 0 20px;}
+/*navigate部分*/
+.navigate{height:40px;width:960px;margin:0 auto;border-bottom: 3px solid #000;}
+	.navigate #ul li{float: left;padding-top:10px;}
+	.navigate #ul a{display: block;width:77px;height:37px;line-height: 37px;text-align: center;font-size:14px;margin-right:44px;}
+	.navigate #ul li:nth-child(2) a:hover{font-weight: bold;}
+	.navigate #ul li:nth-child(3) a:hover{font-weight: bold;}
+	.navigate #ul li:nth-child(4) a:hover{font-weight: bold;}
+	.navigate #ul li:nth-child(5) a:hover{font-weight: bold;}
+	.navigate #ul li:nth-child(7) a{font-weight: bold;}
+	.navigate #ul li:nth-child(8) a{color: #0700C5;font-weight: bold;margin-left:35px;margin-right:0;}
+	.navigate #span1,.navigate #span2,.navigate #span3,.navigate #span4{display:block;width: 1270px;height:421px;background: #f6f6f6;position: absolute;top:135px;left:0;display: none;z-index: 2;}
+	/*.navigate #span1*/
+	.navigate #span1 .ul{display: block;width:70px;height:334px;line-height:23px;margin:15px 0 0 170px;float: left;}
+	.navigate span .ul a,.navigate span .ul1 a,.navigate span .ul2 a{font-size:12px;color:#555555;}
+	.navigate #span1 .ul1{display: block;width:70px;height:334px;line-height:23px;margin:15px 0 0 65px;float: left;}
+	.navigate span a:hover{font-weight: bolder;}
+	.navigate #span1 .ul2{display: block;width:115px;height:334px;line-height:23px;margin:15px 0 0 50px;float: left;}
+	.navigate #span1 .ul3{display: block;width:133px;height:363px;line-height:23px;margin:15px 0 0 160px;float: left;text-align: right;}
+	.navigate #span1 .ul3 a{font-size:13px;color:#555555;}
+	.navigate #span1 img{float: left;border: none;margin:15px 0 0 25px;}
+	/*.navigate #span2*/
+	.navigate #span2 .ul{display: block;width:83px;height:280px;line-height:23px;margin:15px 0 0 170px;float: left;}
+	.navigate #span2 .ul a{font-weight: bold;}
+	.navigate #span2 .ul2{display: block;width:145px;height:334px;line-height:23px;margin:15px 0 0 190px;float: left;text-align: right;}
+	.navigate #span2 img{float: left;border: none;margin:15px 0 0 25px;}
+	/* #span3*/
+	.navigate #span3 .ul{display: block;width:83px;height:280px;line-height:23px;margin:15px 0 0 170px;float: left;}
+	.navigate #span3 .ul1{display: block;width:83px;height:280px;line-height:23px;margin:15px 0 0 50px;float: left;}
+	.navigate #span3 .ul1 a{font-weight:bold;color:#000000;}
+	.navigate #span3 .ul2{display: block;width:145px;height:334px;line-height:23px;margin:15px 0 0 60px;float: left;text-align: right;}
+	.navigate #span3 img{float: left;border: none;margin:15px 0 0 25px;}
+	/*.navigate #span4*/
+	.navigate #span4 .ul{display: block;width:83px;height:280px;line-height:23px;margin:15px 0 0 170px;float: left;}
+	.navigate #span4 .ul1{display: block;width:83px;height:280px;line-height:23px;margin:15px 0 0 50px;float: left;}
+	.navigate #span4 .ul a,.navigate #span4 .ul1 a{font-weight:bold;color:#000000;}
+	.navigate #span4 .ul2{display: block;width:145px;height:334px;line-height:23px;margin:15px 0 0 60px;float: left;text-align: right;}
+	.navigate #span4 img{float: left;border: none;margin:15px 0 0 25px;}
+/*block部分*/
+.block{height:52px;background: #eeeeee;position: absolute;top:135px;left:152px;text-align: center;}
+	.block a{font-size:16px;line-height:52px;}
+	.block a span{font-weight: bold;font-size:20px;}
+/*.banner部分*/
+.banner{height:auto;margin-top: 55px;}
+	/*banner one部分*/
+	.banner .one{height:830px;overflow: hidden;}
+	.banner .one .left{width:630px;height:830px;}
+	.banner .one .left .box{
+		width:630px;height:830px;background:url(../img/rBQKaVh8PBWAaOGDAAAdeo_LKmE084.png) center;overflow: hidden;position: relative;}
+	.banner .one .box img{border:none;position: absolute;}
+	/*首页旋转动画*/
+	/*.banner .one .box img:nth-child(1){top:-100px;left:-200px;animation:rotate 12s linear infinite;  -ms-animation:rotate 12s linear infinite;}	
+	
+	.banner .one .box img:nth-child(2){top:-150px;left:-240px;animation:rotate 12s linear infinite;  -ms-animation:rotate 12s linear infinite;}	
+	
+	.banner .one .box img:nth-child(3){top:-120px;left:-200px;animation:rotate 8s linear infinite;-ms-animation:rotate 8s linear infinite;}	
+	
+	.banner .one .box img:nth-child(4){top:-80px;left:-165px;animation:rotate 8s linear infinite; -ms-animation:rotate 8s linear infinite;}
+	
+	.banner .one .box img:nth-child(5){top:-100px;left:-185px;animation:rotate 26s linear infinite; -webkit-animation:rotate 26s linear infinite; -ms-animation:rotate 26s linear infinite;}
+	
+	.banner .one .box img:nth-child(6){top:-80px;left:-165px;animation:rotate 10s linear infinite; -webkit-animation:rotate 10s linear infinite; -ms-animation:rotate 10s linear infinite;}	
+	
+	.banner .one .box img:nth-child(7){top:-180px;left:-250px;animation:rotate 14s linear infinite; -webkit-animation:rotate 14s linear infinite; -ms-animation:rotate 14s linear infinite;}
+		
+	.banner .one .box img:nth-child(8){top:-53px;left:-135px;animation:rotate2 12s linear infinite; -webkit-animation:rotate2 12s linear infinite; -ms-animation:rotate2 12s linear infinite;}	
+	
+	.banner .one .box img:nth-child(9){top:-50px;left:-135px;animation:rotate 20s linear infinite; -webkit-animation:rotate 20s linear infinite; -ms-animation:rotate 20s linear infinite;}	
+	
+	.banner .one .box img:nth-child(10){top:-125px;left:-210px;animation:rotate2 6s linear infinite;  -ms-animation:rotate2 6s linear infinite;-webkit-animation:rotate2 20s linear infinite;}	
+	
+	.banner .one .box img:nth-child(11){top:250px;left:165px;animation:rotate 20s linear infinite; -webkit-animation:rotate 20s linear infinite; -ms-animation:rotate 20s linear infinite;}
+	
+	.banner .one .box img:nth-child(12){top:-50px;left:-140px;animation:rotate 10s linear infinite; -webkit-animation:rotate 10s linear infinite; -ms-animation:rotate 10s linear infinite;}	
+	@keyframes rotate{
+			0%{transform:rotate(0deg);}
+			100%{transform:rotate(360deg);}	
+		}
+		@keyframes rotate2{
+			0%{transform:rotate(0deg);}
+			100%{transform:rotate(-360deg);}	
+		}
+		@-webkit-keyframes rotate{
+			0%{transform:rotate(0deg);}
+			100%{transform:rotate(360deg);}	
+		}
+		@-webkit-keyframes rotate2{
+			0%{transform:rotate(0deg);}
+			100%{transform:rotate(-360deg);}	
+		}
+		@-moz-keyframes rotate{
+			0%{transform:rotate(0deg);}
+			100%{transform:rotate(360deg);}	
+		}
+		@-moz-keyframes rotate2{
+			0%{transform:rotate(0deg);}
+			100%{transform:rotate(-360deg);}	
+		}
+		@-ms-keyframes rotate{
+			0%{transform:rotate(0deg);}
+			100%{transform:rotate(360deg);}	
+		}
+		@-ms-keyframes rotate2{
+			0%{transform:rotate(0deg);}
+			100%{transform:rotate(-360deg);}	
+		}*/
+	/*放大效果*/
+	.banner #play:hover img{transform:scale(1.1,1.1);} 
+	.banner #play img{transition: all 800ms;transform:scale(1,1);}
+	.banner #play2:hover img{transform:scale(1.1,1.1);} 
+	.banner #play2 img{transition: all 800ms;transform:scale(1,1);}
+	.banner .three img{transition: all 800ms;transform:scale(1,1);}
+	.banner .three .three_1:hover img{transform:scale(1.1,1.1);} 
+	/*banner two部分*/
+	.banner .two{height:600px;position: relative;}
+	.banner #play{width:470px;height:600px;float: left;position: absolute;top:0;left:0;display: block;overflow: hidden;}
+	.banner #play .play1{width:470px;height:600px;position: absolute;top:0;left:0;display:block;
+							background: #000;opacity: 0;}
+	.banner #play2{display:block;width:470px;height:600px;float: left;position: absolute;top:0;
+					left:490px;overflow: hidden;}
+	.banner #play2 .play3{width:470px;height:600px;position:absolute;top:0;left:0;display:block;
+							background: #000;opacity: 0;}	
+	/*banner three部分*/
+	.banner .three{height:600px;overflow: hidden;margin-top:5px;position: relative;}
+	.banner .three .three_1{display:block;width:960px;height:600px;}
+	.banner .three .span3{
+					display:block;height:600px;width:960px;position:absolute;top:0;left:0;background: #000;opacity: 0;}
+	.banner .three .e{font-size:23px;color:#fff;font-weight:bold;position: absolute;top:360px;left:45px;}
+	.banner .three .f{
+			display:block;width:140px;height:40px;font-size:24px;color:#000;background: #fff;position: 			absolute;left:-200px;top:420px;text-align: center;line-height: 40px;}
+	

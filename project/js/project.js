@@ -1,0 +1,165 @@
+$(document).ready(function(){	
+	/*购物车*/
+	$(".dl").mousemove(function(){
+		$(".span").css({
+			"display":"block",
+		});
+		$(".dl").css({
+			"border":"1px solid #000",
+			"border-bottom":"none",
+			"background-color":"#fff",
+		});
+	});	
+	$(".dl").mouseleave(function(){
+		$(".span").css({
+			"display":"none",
+		});
+		$(".dl").css({
+			"border":"1px solid #fff",
+		});
+	});	
+	$(".span").mousemove(function(){
+		$(".span").css({
+			"display":"block",
+		});
+		$(".dl").css({
+			"border":"1px solid #000",
+			"border-bottom":"none",
+		});
+	});
+	$(".span").mouseleave(function(){
+		$(".span").css({
+			"display":"none",
+		});
+		$(".dl").css({
+			"border":"1px solid #fff",
+		});
+	});
+	/*搜索框*/
+	$("#png").click(function(){
+		$("#png").css({
+			"display":"none",
+		});
+		$("#input").show(500);
+		$("#p1").animate({
+			"top":"-16px",
+			"left":"10px",
+		},600);
+		$("#p2").animate({
+			"top":"-16px",
+			"left":"10px",
+		},600);
+		$("#p3").css({
+			"display":"block",
+		});
+	});	
+	$("#p3").click(function(){
+		$("#png").css({
+			"display":"block",
+		});
+		$("#input").delay(500).hide(500);
+		$("#p1").animate({
+			"top":"20px",
+			"left":"20px",
+		},500);
+		
+		$("#p2").animate({
+			"top":"-60px",
+			"left":"20px",
+		},500);
+		
+		$("#png").show(8000);
+	});
+	/*导航条 navigate*/
+	$(".a").mousemove(function(){
+		$("#span1").show();
+	});
+	$(".a").mouseleave(function(){
+		$("#span1").hide();
+	});
+	$(".b").mousemove(function(){
+		$("#span2").show();
+	});
+	$(".b").mouseleave(function(){
+		$("#span2").hide();
+	});
+	$(".c").mousemove(function(){
+		$("#span3").show();
+	});
+	$(".c").mouseleave(function(){
+		$("#span3").hide();
+	});
+	$(".d").mousemove(function(){
+		$("#span4").show();
+	});
+	$(".d").mouseleave(function(){
+		$("#span4").hide();
+	});
+	$("#span1").mousemove(function(){
+		$("#span1").show();
+	});
+	$("#span1").mouseleave(function(){
+		$("#span1").hide();
+	});
+	$("#span2").mousemove(function(){
+		$("#span2").show();
+	});
+	$("#span2").mouseleave(function(){
+		$("#span2").hide();
+	});
+	$("#span3").mousemove(function(){
+		$("#span3").show();
+	});
+	$("#span3").mouseleave(function(){
+		$("#span3").hide();
+	});
+	$("#span4").mousemove(function(){
+		$("#span4").show();
+	});
+	$("#span4").mouseleave(function(){
+		$("#span4").hide();
+	});
+	/*banner图片遮罩层*/
+	$("#play").mouseover(function(){
+		$(".play1").animate({
+			"opacity":0.3,
+		});
+	});
+	$("#play").mouseleave(function(){
+		$(".play1").animate({
+			"opacity":0,
+		});
+	});
+	$("#play2").mouseover(function(){
+		$(".play3").animate({
+			"opacity":0.3,
+		});
+	});
+	$("#play2").mouseleave(function(){
+		$(".play3").animate({
+			"opacity":0,
+		});
+	});
+	$(".three").mouseover(function(){
+		$(".span3").animate({
+			"opacity":0.3,
+		});
+		$(".f").animate({
+			"left":"45px",
+		},500);
+	});
+	$(".three").mouseleave(function(){
+		$(".span3").animate({
+			"opacity":0,
+		});
+		$(".f").animate({
+			"left":"-200px",
+		},200);
+	});	
+	
+	
+	
+	
+});
+/*js*/
+
