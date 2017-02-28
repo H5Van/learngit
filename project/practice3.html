@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/practice3.css" />
+		<script type="text/javascript" src="js/practice.js" ></script>
+	</head>
+	<body>
+		<!--header部分 -->
+		<div class="header">
+			<a href="#"><img src="img/pic12.png"/></a>
+		</div>
+		<div class="catbox">
+		    <table id="cartTable">
+		        <thead>
+		        <tr>
+		            <th><label>
+		                <input class="check-all check" type="checkbox">&nbsp;&nbsp;全选</label></th>
+		            <th>商品</th>
+		            <th>单价</th>
+		            <th>数量</th>
+		            <th>小计</th>
+		            <th>操作</th>
+		        </tr>
+		        </thead>
+		        <tbody>
+		        <tr class="on">
+		            <td class="checkbox"><input class="check-one check" type="checkbox"></td>
+		            <td class="goods"><img src="img/20161202103851215809-181-241.jpg" width="100%"/><span>VALENTINO</span></td>
+		            <td class="price">￥3815</td>
+		            <td class="count"><span class="reduce">-</span>
+		                <input class="count-input" type="text" value="1">
+		                <span class="add">+</span>
+		            </td>
+		            <td class="subtotal">7730</td>
+		            <td class="operation"><span class="delete">删除</span></td>
+		        </tr>
+		        <tr class="on">
+		            <td class="checkbox"><input class="check-one check" type="checkbox"></td>
+		            <td class="goods"><img src="img/20161026091918136144-181-241.jpg" width="100%"/><span>MOU</span></td>
+		            <td class="price">￥705</td>
+		            <td class="count"><span class="reduce">-</span>
+		                <input class="count-input" type="text" value="1">
+		                <span class="add">+</span></td>
+		            <td class="subtotal">1410</td>
+		            <td class="operation"><span class="delete">删除</span></td>
+		        </tr>
+		        <tr class="on">
+		            <td class="checkbox"><input class="check-one check" type="checkbox"></td>
+		            <td class="goods"><img src="img/20161013163849318666-181-241.jpg" width="100%"/><span>LOCOBERRY</span></td>
+		            <td class="price">￥400</td>
+		            <td class="count"><span class="reduce">-</span>
+		                <input class="count-input" type="text" value="1">
+		                <span class="add">+</span></td>
+		            <td class="subtotal">1600</td>
+		            <td class="operation"><span class="delete">删除</span></td>
+		        </tr>
+		        <tr class="on">
+		            <td class="checkbox"><input class="check-one check" type="checkbox"></td>
+		            <td class="goods"><img src="img/20150716151742450517-181-241.jpg" width="100%"/><span>GOLDEN GOO</span></td>
+		            <td class="price">￥2690</td>
+		            <td class="count"><span class="reduce">-</span>
+		                <input class="count-input" type="text" value="1">
+		                <span class="add">+</span></td>
+		            <td class="subtotal">5380</td>
+		            <td class="operation"><span class="delete">删除</span></td>
+		        </tr>
+		        </tbody>
+		    </table>
+		    <div class="foot" id="foot">
+		        <label class="fl select-all"><input type="checkbox" class="check-all check">&nbsp;&nbsp;全选</label>
+		        <a class="fl delete" id="deleteAll" href="javascript:;">删除</a>
+		        <div class="fr closing" onclick="getTotal();">结 算</div>
+		        <input type="hidden" id="cartTotalPrice">
+		        <div class="fr total">合计：￥<span id="priceTotal">11957.48</span></div>
+		        <div class="fr selected" id="selected">已选商品<span id="selectedTotal">4</span>件<span class="arrow up">︽</span><span class="arrow down">︾</span></div>
+		        <div class="selected-view">
+		            <div id="selectedViewList" class="clearfix">
+		            	<div>
+		            		<span class="del" index="0">取消选择</span>
+		            	</div>
+		            	<div>
+		            		<span class="del" index="1">取消选择</span>
+		            	</div>
+		            	<div>
+		            		<span class="del" index="2">取消选择</span>
+		            	</div>
+		            	<div>
+		            		<span class="del" index="3">取消选择</span>
+		            	</div>
+		            </div>
+		            <span class="arrow">
+		            	<span></span>
+		            </span>
+		        </div>
+		    </div>
+		</div>
+		<!--footer部分-->	
+		<div class="footer">
+			<div class="top">
+				<ul>
+					<li><a href="#">京公网安备110105001984</a></li>
+					<li><a href="#">京IC备09087291号-2</a></li>
+					<li><a href="#">京IC证090703号</a></li>
+					<li>Copyright@2010-2016Shangpin.com All Rights Reserved</li>
+				</ul>
+			</div>
+			<div class="bottom">
+				<a href="#"><img src="img/pic19.gif"/></a>
+				<a href="#"><img src="img/pic20.gif"/></a>
+				<a href="#"><img src="img/pic21.gif"/></a>
+				<a href="#"><img src="img/pic21.png"/></a>
+				<a href="#"><img src="img/pic22.gif"/></a>
+			</div>
+		</div>
+	</body>
+</html>

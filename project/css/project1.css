@@ -18,11 +18,9 @@ body{background: #f6f6f6;}
 		.banner .bottom .left{width:505px;float: left;padding-left:100px;padding-top:10px;overflow: hidden;}
 		.banner .left .one,.banner .left .two{width:412px;height:78px;display:block;overflow: hidden;}
 		.banner .left .one{margin-top:35px;}
-		.banner .left .on,.banner .left .in{width:398px;height: 45px; padding:0px 5px 0px 5px; outline:none;}
-		.banner .left .one .p,.banner .left .two .p,.banner .left .three .p{background-image: 		url(../img/pic14.gif);background-position:0px -1292px ;background-repeat: 		no-repeat;height:30px;background-size:15%;display: block;display: none;}
+		.banner .left .on,.banner .left .in,.banner .left .put{width:398px;height: 45px; padding:0px 5px 0px 5px; outline:none;}
 		/*注意：！鼠标事件*/
-		.banner .left .one .p  span,.banner .left .two .p span,.banner .left .three .p span
-												{margin-left:30px;color:#0c05c6;line-height:28px;}
+		.banner .left .p{margin-left:30px;color:#0700C5;line-height:28px;}
 		.banner .bottom .left .span{display: block;height:50px;}
 		.banner .bottom .left .span a{float:left;line-height: 50px;}
 		.banner .bottom .left .span .put{width:260px;height:45px;float:left;}
